@@ -106,3 +106,4 @@ for (const event of getFiles('./events'))
   client.on(event, guild => require('./events/' + event).run(guild, guilds));
 
 client.login(token);
+
